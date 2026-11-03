@@ -20,7 +20,8 @@ Open http://localhost:8043/.
 - `style.css`: responsive styles.
 - `media.js`: video titles, descriptions, topics, and asset locations.
 - `app.js`: library filtering and accessible video-dialog controls.
-- `background.js`: image-coloured particles that morph with scroll position; WebGL with a Canvas fallback.
+- `background.js`: section-aware particle transitions; WebGL with a Canvas fallback.
+- `particle-shapes.js`: original vector silhouettes for each topic.
 - `assets/fonts/`: self-hosted Montserrat (400/500/600), used throughout; SIL Open Font License included.
 - `assets/`: videos, preview images, and CV.
 
@@ -45,4 +46,4 @@ The research and video content retain their respective authorship and rights. Th
 
 ## Motion design
 
-The continuous particle backdrop is inspired by [Motion’s photo-to-globe example](https://motion.dev/examples/js-three-tsl), implemented independently without runtime libraries. Scroll position morphs a laboratory-image point cloud through a globe, helix, and torus. Motion pauses while a video is open or the tab is hidden, respects reduced-motion preferences, and can be disabled using the footer control.
+The continuous particle backdrop is inspired by [Motion’s photo-to-globe example](https://motion.dev/examples/js-three-tsl), implemented independently without runtime libraries. Particles form a brain at the introduction, a video-token cube for foundation models, a sensory glove, surgical instruments, a database for CRCD, a video-player symbol, LB initials, and a contact envelope. Shapes hold while reading and morph near topic boundaries. The About section includes Leonardo’s supplied photo beside the surgical robot. Motion pauses while a video is open or the tab is hidden, respects reduced-motion preferences, and can be disabled using the footer control.

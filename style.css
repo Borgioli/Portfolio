@@ -41,3 +41,15 @@ em{font-family:var(--sans);font-style:normal;font-weight:500}
 @media(prefers-reduced-motion:reduce){#particle-background{opacity:.5}}
 
 .hero-copy,.hero-media{min-width:0}.hero-actions{flex-wrap:wrap}.hero-actions .text-button{padding-inline:4px}
+
+/* A real portrait introduces the research profile. */
+.profile-heading{grid-column:1/-1;display:grid;grid-template-columns:260px 1fr;gap:55px;align-items:center}
+.profile-photo{margin:0;border:1px solid #45616b;background:rgba(14,29,39,.9);max-width:320px}
+.profile-photo img{width:100%;height:auto;aspect-ratio:1;object-fit:cover}
+.profile-photo figcaption{padding:14px 17px;font-size:14px;color:var(--text)}
+.profile-photo figcaption span{display:block;color:var(--muted);font-size:10px;margin-top:3px}
+.profile-heading .about-lead{max-width:730px;margin:22px 0 0}
+.about-grid{row-gap:48px}
+.about-story{align-self:start}
+@media(max-width:800px){.profile-heading{gap:30px;grid-template-columns:200px 1fr}.profile-heading h2{font-size:35px}}
+@media(max-width:540px){.profile-heading{grid-template-columns:1fr;gap:28px}.profile-photo{width:240px}.profile-heading h2{font-size:34px}.about-grid{row-gap:30px}}
