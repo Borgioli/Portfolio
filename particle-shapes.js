@@ -57,11 +57,6 @@ window.createPortfolioShapes = (count) => {
       for(const x of [107,160,213,266,319,372]) {rounded(x,139,23,17,3);rounded(x,356,23,17,3);}
       line(80,170,432,170);line(80,342,432,342);
     }},
-    {name:'leonardo-borgioli', selector:'#about', center:.72, draw(){
-      ctx.font='600 216px Montserrat, Arial, sans-serif';ctx.textAlign='center';ctx.textBaseline='middle';
-      ctx.lineWidth=3;ctx.strokeText('LB',246,268);ellipse(425,333,10,10);
-      path('M83 143 L83 101 L131 101 M383 101 L431 101 L431 143 M83 371 L83 413 L131 413 M383 413 L431 413 L431 371');
-    }},
     {name:'contact', selector:'.contact', center:.73, draw(){
       rounded(80,145,352,235,18);
       path('M84 156 L256 283 L428 156 M84 372 L211 255 M428 372 L301 255');
