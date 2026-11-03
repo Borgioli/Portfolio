@@ -17,8 +17,10 @@
   <link rel="stylesheet" href="style.css">
   <script src="media.js" defer></script>
   <script src="app.js" defer></script>
+  <script src="background.js" defer></script>
 </head>
 <body>
+<div class="background-scene" aria-hidden="true"><canvas id="particle-background"></canvas><div class="background-shade"></div></div>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header">
   <a class="wordmark" href="#home" aria-label="Leonardo Borgioli, home"><span class="monogram">LB<span>·</span></span><span>Leonardo<br>Borgioli</span></a>
@@ -92,7 +94,7 @@
 
 <section class="contact wrap section" aria-labelledby="contact-title"><p class="eyebrow">Let’s build what’s next</p><div class="contact-content"><h2 id="contact-title">Working on AI<br>for the <em>physical world?</em></h2><div><p>I’d love to talk about research and engineering opportunities in foundation models, multimodal AI, and robotics.</p><a class="email-link" href="mailto:lborgi2@uic.edu">lborgi2@uic.edu <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="https://www.linkedin.com/in/leonardo-borgioli-474763171/" target="_blank" rel="noopener">LinkedIn ↗</a><a href="https://github.com/Borgioli" target="_blank" rel="noopener">GitHub ↗</a><a href="assets/Leonardo_Borgioli_CV.pdf" target="_blank" rel="noopener">CV ↗</a></div></div></div></section>
 </main>
-<footer class="wrap"><a class="footer-name" href="#home">Leonardo Borgioli <span>AI & robotics research</span></a><span>Chicago, IL · Updated November 2026</span><a href="#home">Back to top ↑</a></footer>
+<footer class="wrap"><a class="footer-name" href="#home">Leonardo Borgioli <span>AI & robotics research</span></a><span>Chicago, IL · Updated November 2026</span><button id="motion-toggle" type="button" aria-pressed="false">Pause background motion</button><a href="#home">Back to top ↑</a></footer>
 
 <dialog id="video-dialog" aria-labelledby="player-title" aria-describedby="player-description"><div class="dialog-top"><span id="player-category" class="kicker"></span><button id="close-player" aria-label="Close video">Close <span aria-hidden="true">×</span></button></div><video id="player" controls playsinline preload="none"></video><div class="dialog-bottom"><div><h2 id="player-title"></h2><p id="player-description"></p><span id="audio-note" class="audio-note"></span></div><div class="player-nav"><button id="previous-video" aria-label="Previous video">←</button><button id="next-video" aria-label="Next video">→</button></div></div><p id="playback-error" hidden>Playback could not start. <a id="direct-video" href="#">Open the video directly ↗</a></p></dialog>
 </body>

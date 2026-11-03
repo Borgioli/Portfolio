@@ -20,6 +20,8 @@ Open http://localhost:8043/.
 - `style.css`: responsive styles.
 - `media.js`: video titles, descriptions, topics, and asset locations.
 - `app.js`: library filtering and accessible video-dialog controls.
+- `background.js`: image-coloured particles that morph with scroll position; WebGL with a Canvas fallback.
+- `assets/fonts/`: self-hosted Montserrat (400/500/600), used throughout; SIL Open Font License included.
 - `assets/`: videos, preview images, and CV.
 
 ## GitHub Pages
@@ -40,3 +42,7 @@ The portfolio incorporates all three embedded videos from the supplied OmniRAS /
 Project context comes from the research presentations and Leonardo Borgioli’s 2026 CV. Research directions and exploratory visualizations are labeled accordingly. The portfolio does not claim clinical validation for these demonstrations.
 
 The research and video content retain their respective authorship and rights. This repository does not grant a separate license to the underlying research media.
+
+## Motion design
+
+The continuous particle backdrop is inspired by [Motion’s photo-to-globe example](https://motion.dev/examples/js-three-tsl), implemented independently without runtime libraries. Scroll position morphs a laboratory-image point cloud through a globe, helix, and torus. Motion pauses while a video is open or the tab is hidden, respects reduced-motion preferences, and can be disabled using the footer control.
