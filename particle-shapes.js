@@ -9,7 +9,7 @@ window.createPortfolioShapes = (count) => {
   const line = (x,y,a,b) => {ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(a,b);ctx.stroke();};
   const rounded = (x,y,w,h,r) => {ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.stroke();};
   const definitions = [
-    {name:'brain', selector:'#home', center:.28, draw(){
+    {name:'brain', selector:'#home', center:.73, draw(){
       // Bilateral cerebral outline, folds, and brain stem.
       const hemisphere=()=>{
         path('M250 362 C229 392 183 383 171 355 C130 364 102 340 108 309 C70 295 65 254 91 230 C67 198 86 160 119 153 C110 121 135 92 166 98 C183 66 225 70 250 98 Z');
