@@ -14,11 +14,11 @@
   <meta name="twitter:card" content="summary_large_image">
   <link rel="canonical" href="https://borgioli.github.io/Portfolio/">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
-  <link rel="stylesheet" href="style.css?v=20261103-profile">
-  <script src="media.js?v=20261103-profile" defer></script>
-  <script src="app.js?v=20261103-profile" defer></script>
-  <script src="particle-shapes.js?v=20261103-profile" defer></script>
-  <script src="background.js?v=20261103-profile" defer></script>
+  <link rel="stylesheet" href="style.css?v=20261103-research-rows">
+  <script src="media.js?v=20261103-research-rows" defer></script>
+  <script src="app.js?v=20261103-research-rows" defer></script>
+  <script src="particle-shapes.js?v=20261103-research-rows" defer></script>
+  <script src="background.js?v=20261103-research-rows" defer></script>
 </head>
 <body>
 <div class="background-scene" aria-hidden="true"><canvas id="particle-background"></canvas><div class="background-shade"></div></div>
@@ -45,18 +45,18 @@
 
 <section class="section wrap" id="research" aria-labelledby="research-title">
   <div class="section-heading"><div><p class="eyebrow">01 / Current research</p><h2 id="research-title">Learn the structure.<br><span class="muted">Transfer the intelligence.</span></h2></div><p class="section-intro">My work connects self-supervised learning, scientific data, and physical systems—from the operating room to fusion plasma.</p></div>
-  <div class="research-grid">
-    <article class="research-card">
+  <div class="research-list">
+    <article class="project-row research-feature">
       <button class="thumbnail" data-video="omniras-film" aria-label="Watch the OmniRAS project animation"><img src="assets/posters/omniras.jpg" alt="Surgical frames and the OmniRAS video encoder" loading="lazy" width="960" height="640"><span class="small-play" aria-hidden="true">▶</span><span class="media-label">PROJECT ANIMATION</span></button>
-      <div class="card-content"><p class="kicker">Video foundation models</p><h3>OmniRAS</h3><p>1B- and 2B-parameter video encoders pretrained on approximately 2,650 hours of surgical video, with a common evaluation framework across six task families.</p><div class="project-facts"><span><b>2,650 h</b> surgical video</span><span><b>1B / 2B</b> parameters</span></div><p class="contribution"><strong>My contribution</strong> Model development, distributed pretraining, and downstream evaluation.</p><div class="tags"><span>PyTorch</span><span>V-JEPA 2.1</span><span>HPC</span></div><div class="card-links"><a href="https://borgioli.github.io/omniras/" target="_blank" rel="noopener">Project ↗</a><a href="https://arxiv.org/abs/2608.31048" target="_blank" rel="noopener">Paper ↗</a><a href="https://github.com/Borgioli/omniras" target="_blank" rel="noopener">Code ↗</a></div></div>
+      <div class="project-row-copy"><p class="kicker">Video foundation models</p><h3>OmniRAS</h3><p>1B- and 2B-parameter video encoders pretrained on approximately 2,650 hours of surgical video, with a common evaluation framework across six task families.</p><div class="project-facts"><span><b>2,650 h</b> surgical video</span><span><b>1B / 2B</b> parameters</span></div><p class="contribution"><strong>My contribution</strong> Model development, distributed pretraining, and downstream evaluation.</p><div class="tags"><span>PyTorch</span><span>V-JEPA 2.1</span><span>HPC</span></div><div class="card-links"><a href="https://borgioli.github.io/omniras/" target="_blank" rel="noopener">Project ↗</a><a href="https://arxiv.org/abs/2608.31048" target="_blank" rel="noopener">Paper ↗</a><a href="https://github.com/Borgioli/omniras" target="_blank" rel="noopener">Code ↗</a></div></div>
     </article>
-    <article class="research-card">
+    <article class="project-row research-feature reverse">
       <button class="thumbnail" data-video="annotations" aria-label="Watch the surgical dataset overview"><img src="assets/posters/annotations.jpg" alt="Robotic cholecystectomy with phase and triplet annotation timelines" loading="lazy" width="960" height="540"><span class="small-play" aria-hidden="true">▶</span><span class="media-label">DATASET WALKTHROUGH</span></button>
-      <div class="card-content"><p class="kicker">Open surgical datasets</p><h3>OmniRAS-PR & YT-Chole</h3><p>Two complementary benchmarks turn operative video into structured learning problems: identifying the surgical phase and recognizing tool–verb–target interactions.</p><div class="project-facts"><span><b>11</b> surgical phases</span><span><b>3 axes</b> tool · verb · target</span></div><p class="contribution"><strong>My contribution</strong> Benchmark development and evaluation within the OmniRAS project.</p><div class="tags"><span>Video curation</span><span>Annotation</span><span>Evaluation</span></div><div class="card-links"><a href="https://huggingface.co/datasets/BorgioliSITL/OmniRAS" target="_blank" rel="noopener">Datasets ↗</a><a href="https://arxiv.org/abs/2608.31048" target="_blank" rel="noopener">Paper ↗</a></div></div>
+      <div class="project-row-copy"><p class="kicker">Open surgical datasets</p><h3>OmniRAS-PR & YT-Chole</h3><p>Two complementary benchmarks turn operative video into structured learning problems: identifying the surgical phase and recognizing tool–verb–target interactions.</p><div class="project-facts"><span><b>11</b> surgical phases</span><span><b>3 axes</b> tool · verb · target</span></div><p class="contribution"><strong>My contribution</strong> Benchmark development and evaluation within the OmniRAS project.</p><div class="tags"><span>Video curation</span><span>Annotation</span><span>Evaluation</span></div><div class="card-links"><a href="https://huggingface.co/datasets/BorgioliSITL/OmniRAS" target="_blank" rel="noopener">Datasets ↗</a><a href="https://arxiv.org/abs/2608.31048" target="_blank" rel="noopener">Paper ↗</a></div></div>
     </article>
-    <article class="research-card">
+    <article class="project-row research-feature">
       <button class="thumbnail" data-video="tjepa" aria-label="Watch the T-JEPA overview"><img src="assets/posters/tjepa.jpg" alt="T-JEPA plasma diagnostic streams and multimodal architecture" loading="lazy" width="960" height="540"><span class="small-play" aria-hidden="true">▶</span><span class="media-label">MODEL OVERVIEW</span></button>
-      <div class="card-content"><p class="kicker">Multimodal scientific AI</p><h3>T-JEPA</h3><p>Extending joint-embedding predictive learning to tokamak plasma: equilibrium video, diagnostic signals, and controls meet in a shared multimodal representation.</p><div class="project-facts"><span><b>7</b> sensor streams</span><span><b>6</b> sensor towers</span></div><p class="contribution"><strong>My contribution</strong> Multimodal JEPA architecture for plasma dynamics and cross-attention fusion.</p><div class="tags"><span>Multimodal fusion</span><span>Time series</span><span>JEPA</span></div><div class="card-links"><span class="publication-note">SC26 workshop · Accepted</span><button class="inline-button" data-video="tjepa">Watch overview ↗</button></div></div>
+      <div class="project-row-copy"><p class="kicker">Multimodal scientific AI</p><h3>T-JEPA</h3><p>Extending joint-embedding predictive learning to tokamak plasma: equilibrium video, diagnostic signals, and controls meet in a shared multimodal representation.</p><div class="project-facts"><span><b>7</b> sensor streams</span><span><b>6</b> sensor towers</span></div><p class="contribution"><strong>My contribution</strong> Multimodal JEPA architecture for plasma dynamics and cross-attention fusion.</p><div class="tags"><span>Multimodal fusion</span><span>Time series</span><span>JEPA</span></div><div class="card-links"><span class="publication-note">SC26 workshop · Accepted</span><button class="inline-button" data-video="tjepa">Watch overview ↗</button></div></div>
     </article>
   </div>
   <div class="research-scale"><p>From model design<br><strong>to large-scale experiments.</strong></p><div><b>256</b><span>compute nodes at peak<br>OmniRAS pretraining</span></div><div><b>254</b><span>downstream runs<br>OmniRAS evaluation</span></div><div><b>6</b><span>task families<br>recognition to detection</span></div></div>
