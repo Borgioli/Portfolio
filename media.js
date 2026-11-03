@@ -179,12 +179,12 @@ window.PORTFOLIO_MEDIA = [
     "id": "transfer",
     "title": "When Self-Supervision Transfers",
     "category": "Foundation models",
-    "description": "A one-minute research presentation on laparoscopic-to-robotic domain shift.",
-    "src": "assets/videos/transfer.mp4",
-    "poster": "assets/posters/transfer.jpg",
-    "duration": 60.0,
-    "audio": true,
-    "loop": false
+    "description": "Laparoscopic and robotic footage side by side, illustrating the surgical-domain transfer question.",
+    "src": "assets/videos/transfer-iros.mp4",
+    "poster": "assets/posters/transfer-iros.jpg",
+    "duration": 15.0,
+    "audio": false,
+    "loop": true
   },
   {
     "id": "omniras-film",
