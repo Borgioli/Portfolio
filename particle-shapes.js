@@ -9,15 +9,7 @@ window.createPortfolioShapes = (count) => {
   const line = (x,y,a,b) => {ctx.beginPath();ctx.moveTo(x,y);ctx.lineTo(a,b);ctx.stroke();};
   const rounded = (x,y,w,h,r) => {ctx.beginPath();ctx.roundRect(x,y,w,h,r);ctx.stroke();};
   const definitions = [
-    {name:'brain', selector:'#home', center:.73, draw(){
-      // Bilateral cerebral outline, folds, and brain stem.
-      const hemisphere=()=>{
-        path('M250 362 C229 392 183 383 171 355 C130 364 102 340 108 309 C70 295 65 254 91 230 C67 198 86 160 119 153 C110 121 135 92 166 98 C183 66 225 70 250 98 Z');
-        path('M167 99 C155 125 174 149 192 155 M119 154 C141 147 161 164 162 186 M91 231 C121 213 146 231 151 253 M108 308 C138 311 151 294 149 279 M171 355 C162 324 193 303 210 316 M213 111 C197 132 211 151 231 159 M187 203 C217 186 239 209 222 233 M173 264 C190 249 218 264 218 287 M188 350 C211 361 232 342 237 325');
-      };
-      hemisphere();ctx.save();ctx.translate(512,0);ctx.scale(-1,1);hemisphere();ctx.restore();
-      path('M238 378 L238 422 Q256 439 274 422 L274 378');
-    }},
+    {name:'sitl-photo', selector:'#home', center:.5, image:true, draw(){}},
     {name:'video-model', selector:'#research', center:.73, draw(){
       // An isometric volume of video tokens, matching the foundation-model theme.
       path('M104 176 L306 176 L408 94 L206 94 Z M104 176 L104 382 L306 382 L408 300 L408 94 M306 176 L306 382');

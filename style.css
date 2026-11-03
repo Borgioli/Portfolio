@@ -92,3 +92,9 @@ em{font-family:var(--sans);font-style:normal;font-weight:500}
 .research-feature .tags{margin-top:22px}
 .research-feature .card-links{font-size:12px}
 @media(max-width:540px){.research-feature+.research-feature{padding-top:35px}.research-feature .project-facts{gap:30px;margin-block:20px}.research-feature .media-label{font-size:8px;right:14px;bottom:32px}}
+
+/* The opening laboratory photograph releases its own pixels into the shapes. */
+#sitl-background{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1}
+#particle-background{position:absolute;inset:0}
+.background-shade{background:linear-gradient(90deg,rgba(5,14,23,.50),rgba(5,14,23,.67) 50%,rgba(5,14,23,.53)),linear-gradient(0deg,rgba(5,14,23,.35),transparent 30%,transparent 75%,rgba(5,14,23,.2))}
+@media(max-width:540px){.background-shade{background:rgba(5,14,23,.64)}}
