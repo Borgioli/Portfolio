@@ -1,0 +1,200 @@
+window.PORTFOLIO_MEDIA = [
+  {
+    "id": "omniras",
+    "title": "OmniRAS in 12 seconds",
+    "category": "Foundation models",
+    "description": "Video encoders that learn surgical representations through self-supervision.",
+    "src": "assets/videos/omniras.mp4",
+    "poster": "assets/posters/omniras.jpg",
+    "duration": 12.07,
+    "audio": false,
+    "loop": false
+  },
+  {
+    "id": "annotations",
+    "title": "OmniRAS-PR & YT-Chole",
+    "category": "Datasets",
+    "description": "Phase and tool\u2013verb\u2013target annotations across robotic cholecystectomy video.",
+    "src": "assets/videos/annotations.mp4",
+    "poster": "assets/posters/annotations.jpg",
+    "duration": 20.0,
+    "audio": false,
+    "loop": false
+  },
+  {
+    "id": "tjepa",
+    "title": "T-JEPA: multimodal plasma modeling",
+    "category": "Foundation models",
+    "description": "An animated overview of learning across MAST plasma diagnostics.",
+    "src": "assets/videos/tjepa.mp4",
+    "poster": "assets/posters/tjepa.jpg",
+    "duration": 26.07,
+    "audio": false,
+    "loop": false
+  },
+  {
+    "id": "dissection",
+    "title": "Autonomous dissection",
+    "category": "Robotics",
+    "description": "Coordinated grasping and cautery along a tissue boundary.",
+    "src": "assets/videos/dissection.mp4",
+    "poster": "assets/posters/dissection.jpg",
+    "duration": 55.38,
+    "audio": false,
+    "loop": false
+  },
+  {
+    "id": "crcd",
+    "title": "CRCD: the operative view",
+    "category": "Datasets",
+    "description": "Endoscopic video from the multimodal robotic cholecystectomy dataset.",
+    "src": "assets/videos/crcd.mp4",
+    "poster": "assets/posters/crcd.jpg",
+    "duration": 14.0,
+    "audio": false,
+    "loop": false
+  },
+  {
+    "id": "glove",
+    "title": "Sensory glove: quick demonstration",
+    "category": "Robotics",
+    "description": "Hand motion and gestures control a da Vinci research robot.",
+    "src": "assets/videos/glove.mp4",
+    "poster": "assets/posters/glove.jpg",
+    "duration": 14.0,
+    "audio": false,
+    "loop": false
+  },
+  {
+    "id": "reconstruction",
+    "title": "Masked surgical video reconstruction",
+    "category": "Foundation models",
+    "description": "A visualization of reconstructed surgical video from the research presentation.",
+    "src": "assets/videos/reconstruction.mp4",
+    "poster": "assets/posters/reconstruction.jpg",
+    "duration": 1.25,
+    "audio": false,
+    "loop": true
+  },
+  {
+    "id": "future",
+    "title": "Future-frame prediction",
+    "category": "World models",
+    "description": "An exploratory future-prediction visualization from the research presentation.",
+    "src": "assets/videos/future.mp4",
+    "poster": "assets/posters/future.jpg",
+    "duration": 1.25,
+    "audio": false,
+    "loop": true
+  },
+  {
+    "id": "decoded",
+    "title": "Decoded future",
+    "category": "World models",
+    "description": "A short decoded-future visualization from the research presentation.",
+    "src": "assets/videos/decoded.mp4",
+    "poster": "assets/posters/decoded.jpg",
+    "duration": 1.0,
+    "audio": false,
+    "loop": true
+  },
+  {
+    "id": "target",
+    "title": "Prediction & target",
+    "category": "World models",
+    "description": "A side-by-side prediction and target visualization.",
+    "src": "assets/videos/target.mp4",
+    "poster": "assets/posters/target.jpg",
+    "duration": 1.0,
+    "audio": false,
+    "loop": true
+  },
+  {
+    "id": "phase-isolation",
+    "title": "Surgical workflow: artery isolation",
+    "category": "Datasets",
+    "description": "An operative-video example of cystic artery isolation.",
+    "src": "assets/videos/phase-isolation.mp4",
+    "poster": "assets/posters/phase-isolation.jpg",
+    "duration": 6.0,
+    "audio": false,
+    "loop": true
+  },
+  {
+    "id": "phase-dissection",
+    "title": "Surgical workflow: dissection",
+    "category": "Datasets",
+    "description": "An operative-video example used to illustrate temporal context.",
+    "src": "assets/videos/phase-dissection.mp4",
+    "poster": "assets/posters/phase-dissection.jpg",
+    "duration": 6.0,
+    "audio": false,
+    "loop": true
+  },
+  {
+    "id": "glove-full",
+    "title": "Sensory glove: full demonstration",
+    "category": "Robotics",
+    "description": "Robot, operator, and motion views of the glove interface.",
+    "src": "assets/videos/glove-full.mp4",
+    "poster": "assets/posters/glove-full.jpg",
+    "duration": 48.13,
+    "audio": true,
+    "loop": false
+  },
+  {
+    "id": "dissection-full",
+    "title": "Automated tissue-boundary dissection",
+    "category": "Robotics",
+    "description": "The full research demonstration of perception, planning, and robot control.",
+    "src": "assets/videos/dissection-full.mp4",
+    "poster": "assets/posters/dissection-full.jpg",
+    "duration": 177.4,
+    "audio": true,
+    "loop": false
+  },
+  {
+    "id": "rag-tree",
+    "title": "RASRAG: hierarchical retrieval",
+    "category": "Language & retrieval",
+    "description": "A visualization of the procedure-to-passage retrieval hierarchy.",
+    "src": "assets/videos/rag-tree.mp4",
+    "poster": "assets/posters/rag-tree.jpg",
+    "duration": 16.62,
+    "audio": true,
+    "loop": false
+  },
+  {
+    "id": "rag-network",
+    "title": "RASRAG: surgical knowledge network",
+    "category": "Language & retrieval",
+    "description": "A visualization of the connections in the surgical knowledge corpus.",
+    "src": "assets/videos/rag-network.mp4",
+    "poster": "assets/posters/rag-network.jpg",
+    "duration": 37.82,
+    "audio": true,
+    "loop": false
+  },
+  {
+    "id": "transfer",
+    "title": "When Self-Supervision Transfers",
+    "category": "Foundation models",
+    "description": "A one-minute research presentation on laparoscopic-to-robotic domain shift.",
+    "src": "assets/videos/transfer.mp4",
+    "poster": "assets/posters/transfer.jpg",
+    "duration": 60.0,
+    "audio": true,
+    "loop": false
+  },
+  {
+    "id": "omniras-film",
+    "title": "OmniRAS: project animation",
+    "category": "Foundation models",
+    "description": "An animated introduction to the surgical foundation-model project.",
+    "src": "assets/videos/omniras-film.mp4",
+    "poster": "assets/posters/omniras-film.jpg",
+    "duration": 12.0,
+    "audio": false,
+    "loop": false
+  }
+];
